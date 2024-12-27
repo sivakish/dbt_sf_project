@@ -1,0 +1,13 @@
+dbt_sf:
+  outputs:
+    dev:
+      account: eecyifw-iq80648
+      database: '"Ecommerce Sales"'
+      password: Jaisrirama@289
+      role: ACCOUNTADMIN
+      schema: PUBLIC
+      threads: 1
+      type: snowflake
+      user: sivakishore
+      warehouse: COMPUTE_WH
+  target: dev
